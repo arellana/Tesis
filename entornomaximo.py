@@ -50,7 +50,7 @@ def entornoMaximo(dat, parametro, delta, bin):
 
     #sns.histplot(aux[4],bins=100)
 
-    pMin = np.where(aux[4] >= (maximo-delta))[0]
+    pMin = np.where(aux[parametro] >= (maximo-delta))[0]
 
     cor = np.zeros((7,len(pMin)))
     
